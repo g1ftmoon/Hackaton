@@ -14,3 +14,4 @@ def send_activation_email(email, activation_code):
         [email, ],
         fail_silently=False
     )
+    print('ok')
