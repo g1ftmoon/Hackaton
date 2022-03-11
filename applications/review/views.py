@@ -19,7 +19,7 @@ class ReviewViewSet(viewsets.ModelViewSet):
         elif self.action == 'like':
             permissions = [IsAuthenticated, ]
         else:
-            permission = [IsReviewAuthor, ]
+            permissions = [IsReviewAuthor, ]
         return [permission() for permission in permissions]
 
     @action(detail=True, methods=['POST'])

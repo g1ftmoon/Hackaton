@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from applications.product.models import Product, ProductImage
-from applications.review.serilaizers import ReviewSerializer
+from applications.review.serializers import ReviewSerializer
 
 
 class ProductImageSerializer(serializers.ModelSerializer):
