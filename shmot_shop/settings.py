@@ -148,6 +148,10 @@ REST_FRAMEWORK = {
 }
 
 
+<<<<<<< HEAD
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+=======
+>>>>>>> b3dae563715915ec92fb13cde60a5bd4fed8125e
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
